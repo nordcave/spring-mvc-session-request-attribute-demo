@@ -16,7 +16,7 @@
 	<div align="center">
 		<h1>@SessionAttribute Test Bed</h1>
 		<hr>
-			<form:form action="visitor" modelAttribute="visitorstats">
+			<form:form action="visitor" modelAttribute="visitorstats" method="GET">
 				<table>
 					<tr>
 						<td><form:label path="currentVisitorName">Name</form:label></td>

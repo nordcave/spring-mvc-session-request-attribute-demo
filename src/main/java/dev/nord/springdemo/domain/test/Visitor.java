@@ -11,6 +11,18 @@ public class Visitor implements Serializable {
 	private static final long serialVersionUID = 4516483862322486349L;
 	
 	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	private String email;
 	
 	public Visitor(String name, String email) {

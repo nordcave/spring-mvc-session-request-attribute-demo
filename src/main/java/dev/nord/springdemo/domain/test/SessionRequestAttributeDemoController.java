@@ -44,7 +44,7 @@ public class SessionRequestAttributeDemoController {
 		return new VisitorCount(0);
 	}
 
-	@RequestMapping(value="/visitor", method=RequestMethod.POST)
+	@RequestMapping(value="/visitor")
 	public String getVisitors(@ModelAttribute("visitor") VisitorData currentVisitor,
 								HttpSession session,
 								SessionStatus sessionStatus,
