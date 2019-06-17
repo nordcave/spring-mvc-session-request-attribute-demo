@@ -17,6 +17,10 @@ public class VisitorData implements Serializable {
 	private String currentVistorEmail;
 	private List<Visitor> visitors = new ArrayList<Visitor>();
 	
+	public VisitorData() {
+		
+	}
+	
 	public VisitorData(String currentVisitorName, String currentVistorEmail, List<Visitor> visitors) {
 		super();
 		this.currentVisitorName = currentVisitorName;
